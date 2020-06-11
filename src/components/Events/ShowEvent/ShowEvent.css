@@ -1,0 +1,18 @@
+.ShowEvent{
+    width: 70%;
+    margin :5% auto;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    color: teal;
+    font-weight: bold;
+    border: 2px thin #333333;
+
+}
+.ShowEvent h2{
+    color: rgb(33, 97, 235);
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+

@@ -1,0 +1,29 @@
+
+.Box {
+    width: 80%;
+    text-align: center;
+    display: flex;
+    margin: auto 10%;
+}
+
+.Avatar{
+    /* padding-top: 30px; */
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+.Box h1{
+    color: rgb(93, 93, 93);
+    margin-bottom: 10px;
+}
+
+.Sub_Box{
+    height: 60px;
+}
+
+.logo{
+    height: 100%;
+    width:60%;
+}

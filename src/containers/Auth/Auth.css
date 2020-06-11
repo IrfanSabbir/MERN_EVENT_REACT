@@ -1,0 +1,69 @@
+.Auth{
+    margin: 20px auto;
+    text-align: center;
+    width: 70%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px ;
+    box-shadow: 0 0 5px 0 rgb(97, 26, 211);
+   
+ 
+
+}
+
+.Auth input{
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.Auth label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+
+}
+.Auth input:focus {
+    outline: none;
+    background-color: rgba(179, 236, 240, 0.63);
+}
+.Auth select {
+    position: relative;
+    font-family: Arial;
+    border: 1px solid #ccc;
+    background-color: white;
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .imagecenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .image_upload__preview {
+    width: 13rem;
+    height: 13rem;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+ 
+
+@media (min-width:600px){
+    .Auth{
+        width: 500px;
+    }
+}

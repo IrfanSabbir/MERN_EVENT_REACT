@@ -1,0 +1,88 @@
+.Events{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    /* padding: 10px; */
+    min-height: auto;
+    max-height: 700px;
+    /* overflow: scroll; */
+    background-color: rgb(194, 194, 194);
+    box-sizing: border-box;
+    
+    align-items: center;
+    /* border: 2px solid rgb(76, 10, 85); */
+   
+}
+.Events header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 15px;
+    color: rgb(255, 255, 255);
+  
+    background-color: rgb(12, 59, 112);
+    border-bottom:8px solid  rgb(255, 255, 255);
+    font-size: larger;
+    font-style: oblique;
+    font-family: cursive;
+  
+    /* position: relative; */
+}
+
+.Events input,
+.Events  textarea{
+    outline: none;
+    margin: 0 10%;
+    font: inherit;
+    padding: 6px 10px;
+    display: flex;
+    flex-flow: row;
+    border-radius: 5px;
+    width: 80%;
+    box-sizing: border-box;
+}
+.Events label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+
+}
+.Events input:focus ,textarea:focus {
+    outline: none;
+    background-color: rgba(199, 199, 199, 0.63);
+}
+.Events select {
+    position: relative;
+    font-family: Arial;
+    border: 3px solid rgb(250, 250, 250);
+    background-color: rgb(97, 18, 150);
+    font: inherit;
+    padding: 6px 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+ 
+
+
+  .Events footer{
+   
+    margin: auto;
+    display: flex;
+    flex-flow: row-reverse;
+    
+    
+}
+
+@media (max-width:500px){
+   
+    .Events footer{
+        
+        display: block;
+        align-items: center;
+
+    }
+}

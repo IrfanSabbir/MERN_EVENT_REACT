@@ -1,0 +1,48 @@
+.Modal{
+    width: 50%;
+    height: 300px;
+    top: 15%;
+    left: 20%;
+    padding: 10px;
+    display: block;
+    box-sizing: border-box;
+    position: fixed;
+    text-align: center;
+    /* background-color: rgb(37, 37, 37); */
+    color: honeydew;
+    border-radius: 20px;
+    /* box-shadow: 4px 4px 1px  rgba(0, 0, 0, 0.5); */
+    z-index: 101;
+    font-size: large;
+}
+/* .Modal header{
+    top: 0;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    font-style: oblique;
+    font-family: cursive;
+    position: relative;
+} */
+
+.Modal footer{
+   
+    margin: auto;
+    display: flex;
+    flex-flow: row-reverse;
+    
+    
+}
+
+@media (max-width:500px){
+    .Modal{
+        width: 80%;
+        border-radius: 0px;
+        left: 10%;
+    }
+    .Modal footer{
+        
+        display: block;
+        align-items: center;
+
+    }
+}

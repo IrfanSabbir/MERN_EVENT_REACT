@@ -1,0 +1,27 @@
+.EventCreate{
+    margin: 5px auto;
+    padding :5px;
+    height:auto;
+    width: 40%;
+    border: 4px solid #BB2CD9;
+    border-radius: 50px;
+    /* background-color: rgb(226, 226, 226); */
+}
+/* .EventCreate:hover{
+    border: 4px solid #0ABDE3;
+    background-color: #DAE0E2;
+} */
+.EventCreate h1{
+    color: teal;
+}
+.EventCreate:hover h1{
+    color: #BB2CD9;
+}
+
+
+@media (max-width:500px){
+    .EventCreate{
+        width: 60%;
+        border-radius: 0px;
+    }
+}
